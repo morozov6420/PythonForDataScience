@@ -13,3 +13,8 @@ np.sum(a)
 import matplotlib.pyplot as plt
 plt.plot(range(5), range(5))
 plt.show()
+
+import pandas as pd
+tab = pd.DataFrame(np.linspace(1,9,9).reshape((3,3)))
+tab.columns = ['a', 'b', 'c']
+tab
