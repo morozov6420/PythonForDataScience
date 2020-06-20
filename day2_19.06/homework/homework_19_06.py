@@ -4,7 +4,7 @@
 #         del globals()[name]
 
 import numpy as np
-# Создание массива из нулей
+# Создание массива из int
 np.random.seed(42)
 x = np.random.randint(5, size = (5,5)) # массив 5 на 5 с элементами от 0 до 4
 # Сохранение массива в файл
