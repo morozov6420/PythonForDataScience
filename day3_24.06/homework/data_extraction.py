@@ -38,3 +38,8 @@ np.savetxt(
 #     delimiter=',', dtype=int
 # )
 # matrix
+
+# import matplotlib.pyplot as plt
+# frame = matrix[1500][:-1].reshape((32,32))
+# plt.imshow(frame)
+# plt.show()
